@@ -24,8 +24,8 @@ function showSlideAt(slide) {
         slides[i].getElementsByClassName.display = "none";
     }
     for (let i = 0; i < markers.length; i++) {
-        markers[i].className = markers[i].className.replace(" active", "");
+        markers[i].className = markers[i].className.replace("active", "");
     }
     slides[currentSlide-1].style.display = "block";
-    markers[currentSlide-1].className += " active";
+    markers[currentSlide-1].className += "active";
 }
