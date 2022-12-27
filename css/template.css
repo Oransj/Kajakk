@@ -1,0 +1,43 @@
+:root {
+    --bar-height: 4rem;
+}
+
+body {
+    margin: 0;
+    background-image: url("../images/geiranger_fjorden_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#top-bar {
+    list-style: none;
+    background-color: rgb(8, 8, 97);
+    height: var(--bar-height);
+    margin: 0;
+}
+
+#top-bar > * {
+    float: left;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#top-bar a {
+    display: block;
+    line-height: var(--bar-height);
+    text-align: center;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#top-bar-logo {
+    float: right;
+    height: inherit;
+}
+
+#top-bar a:hover {
+    background-color: rgb(19, 19, 194);
+}
