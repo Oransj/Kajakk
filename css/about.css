@@ -12,10 +12,14 @@ body {
 }
 
 #top-bar {
+    position: relative;
+    display: inline-block;
+    width: 100%;
     list-style: none;
     background-color: rgb(8, 8, 97);
-    height: var(--bar-height);
+    min-height: var(--bar-height);
     margin: 0;
+    padding: 0;
 }
 
 #top-bar > * {
@@ -35,8 +39,9 @@ body {
 }
 
 #top-bar-logo {
-    float: right;
-    height: inherit;
+    position: absolute;
+    right: 0;
+    height: var(--bar-height)
 }
 
 #top-bar a:hover {
@@ -50,6 +55,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 10%;
 }
 
 #employee-list {
