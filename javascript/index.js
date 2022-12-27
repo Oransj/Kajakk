@@ -21,7 +21,7 @@ function showSlideAt(slide) {
         currentSlide = slides.length;
     }
     for (let i = 0; i < slides.length; i++) {
-        slides[i].getElementsByClassName.display = "none";
+        slides[i].style.display = "none";
     }
     for (let i = 0; i < markers.length; i++) {
         markers[i].className = markers[i].className.replace("active", "");
