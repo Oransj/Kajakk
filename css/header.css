@@ -1,0 +1,51 @@
+:root {
+    --bar-height: 4rem;
+}
+
+/* Top bar */
+#header-line {
+    background: white;
+    height: 5px;
+    margin-bottom: 0.5em;
+    width: inherit;
+    width: 50vw;
+    border: 3px solid black;
+}
+
+#top-bar {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    list-style: none;
+    background-color: rgb(8, 8, 97);
+    min-height: var(--bar-height);
+    margin: 0;
+    padding: 0;
+}
+
+#top-bar > * {
+    float: left;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#top-bar a {
+    display: block;
+    line-height: var(--bar-height);
+    text-align: center;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#top-bar-logo {
+    position: absolute;
+    right: 0;
+    height: var(--bar-height)
+}
+
+#top-bar a:hover {
+    background-color: rgb(19, 19, 194);
+}
+/* Top bar end */
