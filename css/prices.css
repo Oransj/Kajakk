@@ -7,11 +7,21 @@ body {
     font-family: sans-serif;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 1rem;
+    min-width: 1rem;
+    justify-content: center;
+}
+
 #course-table {
     border-collapse: collapse;
+    
 }
 
 #course-table th,#course-table td {
     border: 1px solid;
     background-color: #62d5d5ae;
+    padding: 0.2rem;
 }
