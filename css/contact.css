@@ -16,7 +16,9 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#mail-text {
+#mail-text-wrapper {
+    width: 30rem;
+    min-height: 1rem;
     background-color: white;
     padding: 1rem;
     text-align: center;
