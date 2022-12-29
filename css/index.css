@@ -7,7 +7,9 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
+.main-heading {
+    position: relative;
+    padding-bottom: 5px;
     color: white;
     font-size: 40px;
     font-weight: 900;
@@ -17,19 +19,23 @@ h1 {
     font-family: sans-serif;
 }
 
-hr {
-    background: white;
+.main-heading:before {
+    content: '';
+    position: absolute;
     height: 5px;
-    margin-bottom: 0.5em;
-    width: inherit;
-    width: 50vw;
-    border: 3px solid black;
+    width: 50%;
+
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: rgb(8, 8, 97);
 }
 
 main {
     width: 70vw;
-    margin: 0 auto;
-    padding: 0 1rem;
+    margin: 1rem auto;
+    padding: 0.5rem 2rem;
     background: white;
 }
 
