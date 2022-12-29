@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
 }
 
-#header {
+h1 {
     color: white;
     font-size: 40px;
     font-weight: 900;
@@ -17,19 +17,42 @@ body {
     font-family: sans-serif;
 }
 
+hr {
+    background: white;
+    height: 5px;
+    margin-bottom: 0.5em;
+    width: inherit;
+    width: 50vw;
+    border: 3px solid black;
+}
+
+main {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background: white;
+}
+
 .body-text {
     font-size: 20px;
 }
 
 /* Gallery */
 #gallery-section {
-    max-width: 1000px;
+    max-width: 500px;
     position: relative;
     margin: auto;
 }
 
 .slide {
+    width: inherit;
+    height: inherit;
     display: none;
+}
+
+.slide > img {
+    max-width: 500px;
+    max-height: 300px;
 }
 
 #prev-button, #next-button {
