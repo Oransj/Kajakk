@@ -12,55 +12,57 @@
 </head>
 <body class="darken-overlay">
     <header></header>
-    <h1 id="header">
-        Friends with kajakks
-        <hr id="header-line">
-    </h1>
-    <section>
-        <p class="body-text">
-            <img src="images/kajakk_gerianger.jpg" alt="Kajakk i geiranger" style="float: right; width: 400px">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eos minima pariatur. Ipsam debitis facilis laboriosam quae suscipit 
-            ipsa quos ab nesciunt odit animi non, eos cupiditate nemo voluptas consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Sapiente exercitationem fugiat quos necessitatibus maiores fuga ipsum dolorum placeat et nulla, eveniet quae ex error assumenda 
-            reprehenderit dolore earum expedita! Reiciendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt reiciendis accusamus 
-            distinctio sunt, doloremque aliquid nemo eveniet veritatis dolorem laborum nulla dicta officiis, numquam recusandae tenetur rerum, 
-            at rem cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum deserunt amet modi fuga iste beatae non excepturi 
-            sit inventore ex corrupti magni corporis voluptate laborum, labore praesentium est ipsam! Lorem ipsum dolor sit amet, consectetur 
-            adipisicing elit. Impedit, quas. Magni enim facere quaerat fugit voluptatum ullam magnam ad porro. Expedita maiores dolorum error 
-            voluptatibus ullam sunt corporis, nam veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, similique. Illo commodi 
-            suscipit cum veniam quasi a cupiditate libero nostrum, unde ipsam quaerat harum quidem consectetur assumenda fugit possimus! Nobis! 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, commodi amet, dolores enim modi dolorum corporis delectus harum, vero 
-            veniam beatae. Ullam sit doloremque quae quod. Eveniet fugit minima nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nulla iste consequatur reprehenderit sunt fuga labore odit repellat aut, accusantium sapiente, facilis dolorem aliquid et ipsum 
-            dolore quibusdam ducimus. Ipsa, saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae qui praesentium magnam 
-            cupiditate molestias minima cum illum accusantium totam? Laboriosam, sequi repellendus ullam maxime impedit eaque tempore ratione 
-            quasi nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur perspiciatis temporibus facilis, ex eligendi ipsam 
-            velit nostrum sit earum iusto! Laborum corrupti, minus quam nihil inventore vel eligendi voluptatibus quidem?
-        </p>
-    </section>
-    <section id="gallery-section">
-        <div class="slide">
-            <img src="images/Kajakk_elv.jpg" alt="Kajakk padling i elv">
-            <p class="caption-text">Caption1</p>
+    
+    <main>
+        <h1 class="main-heading">
+            Friends with kajakks
+        </h1>
+        <section>
+            <p class="body-text">
+                <img src="images/kajakk_gerianger.jpg" alt="Kajakk i geiranger" style="float: right; width: 400px">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eos minima pariatur. Ipsam debitis facilis laboriosam quae suscipit 
+                ipsa quos ab nesciunt odit animi non, eos cupiditate nemo voluptas consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sapiente exercitationem fugiat quos necessitatibus maiores fuga ipsum dolorum placeat et nulla, eveniet quae ex error assumenda 
+                reprehenderit dolore earum expedita! Reiciendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt reiciendis accusamus 
+                distinctio sunt, doloremque aliquid nemo eveniet veritatis dolorem laborum nulla dicta officiis, numquam recusandae tenetur rerum, 
+                at rem cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum deserunt amet modi fuga iste beatae non excepturi 
+                sit inventore ex corrupti magni corporis voluptate laborum, labore praesentium est ipsam! Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Impedit, quas. Magni enim facere quaerat fugit voluptatum ullam magnam ad porro. Expedita maiores dolorum error 
+                voluptatibus ullam sunt corporis, nam veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, similique. Illo commodi 
+                suscipit cum veniam quasi a cupiditate libero nostrum, unde ipsam quaerat harum quidem consectetur assumenda fugit possimus! Nobis! 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, commodi amet, dolores enim modi dolorum corporis delectus harum, vero 
+                veniam beatae. Ullam sit doloremque quae quod. Eveniet fugit minima nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nulla iste consequatur reprehenderit sunt fuga labore odit repellat aut, accusantium sapiente, facilis dolorem aliquid et ipsum 
+                dolore quibusdam ducimus. Ipsa, saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae qui praesentium magnam 
+                cupiditate molestias minima cum illum accusantium totam? Laboriosam, sequi repellendus ullam maxime impedit eaque tempore ratione 
+                quasi nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur perspiciatis temporibus facilis, ex eligendi ipsam 
+                velit nostrum sit earum iusto! Laborum corrupti, minus quam nihil inventore vel eligendi voluptatibus quidem?
+            </p>
+        </section>
+        <section id="gallery-section">
+            <div class="slide">
+                <img src="images/Kajakk_elv.jpg" alt="Kajakk padling i elv">
+                <p class="caption-text">Caption1</p>
+            </div>
+            <div class="slide">
+                <img src="images/kajakk_munkholmen.jpg" alt="Kajakkk padling i trondheimsfjorden utenfor munkholmen">
+                <p class="caption-text">Caption2</p>
+            </div>
+            <div class="slide">
+                <img src="images/kajakk_gerianger.jpg" alt="Kajakk padling i geiranger fjorden">
+                <p class="caption-text">Caption3</p>
+            </div>
+    
+            <button id="prev-button" onclick="jumpToSlidesPlus(-1)">&#10094</button>
+            <button id="next-button" onclick="jumpToSlidesPlus(1)">&#10095</button>
+        </section>
+        <br>
+        <div>
+            <span class="dot" onclick="jumpTo(1)"></span>
+            <span class="dot" onclick="jumpTo(2)"></span>
+            <span class="dot" onclick="jumpTo(3)"></span>
         </div>
-        <div class="slide">
-            <img src="images/kajakk_munkholmen.jpg" alt="Kajakkk padling i trondheimsfjorden utenfor munkholmen">
-            <p class="caption-text">Caption2</p>
-        </div>
-        <div class="slide">
-            <img src="images/kajakk_gerianger.jpg" alt="Kajakk padling i geiranger fjorden">
-            <p class="caption-text">Caption3</p>
-        </div>
-
-        <button id="prev-button" onclick="jumpToSlidesPlus(-1)">&#10094</button>
-        <button id="next-button" onclick="jumpToSlidesPlus(1)">&#10095</button>
-    </section>
-    <br>
-    <div>
-        <span class="dot" onclick="jumpTo(1)"></span>
-        <span class="dot" onclick="jumpTo(2)"></span>
-        <span class="dot" onclick="jumpTo(3)"></span>
-    </div>
+    </main>
 </body>
 </html>
 <!-- Dagbok dag 1: Så, jeg tenker blå farge passer bra med "kajakk og sjø". Overskriften er hvit og svart fordi det passer bra med aqua

@@ -3,15 +3,6 @@
 }
 
 /* Top bar */
-#header-line {
-    background: white;
-    height: 5px;
-    margin-bottom: 0.5em;
-    width: inherit;
-    width: 50vw;
-    border: 3px solid black;
-}
-
 #top-bar {
     position: relative;
     display: inline-block;
