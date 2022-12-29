@@ -7,6 +7,11 @@ body {
     font-family: sans-serif;
 }
 
+.darken-overlay {
+    background-color: rgba(0, 0, 0, 0.253);
+    background-blend-mode: darken;
+}
+
 #header {
     color: white;
     font-size: 40px;
